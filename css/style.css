@@ -1,0 +1,24 @@
+.container {
+    margin-top: 3em;
+}
+
+/* NAVIGATION BAR */
+
+nav ul li a {
+    color:white;
+}
+
+nav ul li a:hover {
+    color:white;
+}
+
+/* About Section */
+
+.about-me {
+    height: 30em;
+}
+
+.about-me img {
+    padding-top: 2em;
+    padding-left: 2em;
+}
