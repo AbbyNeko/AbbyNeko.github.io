@@ -12,6 +12,9 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar sticky-top navbar-dark bg-dark">
+      <a class="navbar-brand my-name" href="index.html">
+        Abigail Limpioso
+      </a>
         <ul class="nav">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -28,31 +31,39 @@
     <!-- Content -->
     <div class="container">
 
-        <form>
-            <h1>Contact</h1>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="contact-name">Name</label>
-                <input type="text" class="form-control" id="contact-name" placeholder="Name">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="contact-email">Email Address</label>
-                <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
-              </div>
+      <div class="row">
+
+        
+        <form class="col-lg-10 col-md-10 col-sm-8 contact-form">
+
+          <h1>Contact</h1>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="contact-name">Name</label>
+              <input type="text" class="form-control" id="contact-name" placeholder="Name">
             </div>
-         
-            <div class="form-group">
-
-                <label class="form-check-label" for="contact-text-area">
-                  Message
-                </label>
-
-                <textarea class="form-control" id="contact-text-area" rows="3"></textarea>
-              
+            <div class="form-group col-md-6">
+              <label for="contact-email">Email Address</label>
+              <input type="email" class="form-control" id="contact-email" placeholder="name@example.com">
             </div>
+          </div>
+       
+          <div class="form-group">
 
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
+              <label class="form-check-label" for="contact-text-area">
+                Message
+              </label>
+
+              <textarea class="form-control" id="contact-text-area" rows="3"></textarea>
+            
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+      </div>
+
 
     </div>
 

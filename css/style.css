@@ -26,3 +26,25 @@ nav ul li a:hover {
     padding-right:2em;
 }
 
+/* Portfolio */
+
+.portfolio-header {
+    margin-bottom: 1em;
+}
+
+a.card-link, a.card-link:hover {
+    color:white;
+}
+
+
+/* Contact */
+
+.contact-form h1 {
+    margin-bottom: 1em;
+}
+
+.contact-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
