@@ -14,11 +14,13 @@ nav ul li a:hover {
 
 /* About Section */
 
-.about-me {
-    height: 30em;
+
+.about-paragraph {
+    margin-top: 2em;
 }
 
 .about-me img {
     padding-top: 2em;
     padding-left: 2em;
+    padding-bottom: 2em;
 }
