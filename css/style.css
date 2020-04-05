@@ -26,6 +26,16 @@ nav ul li a:hover {
     padding-right:2em;
 }
 
+.social-media-icon {
+    margin-top: 0.5em;
+    display: inline-block;
+    margin-right: 0.8em;
+}
+
+.fab {
+    color:black;
+}
+
 /* Portfolio */
 
 .portfolio-header {
