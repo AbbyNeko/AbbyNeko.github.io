@@ -3,6 +3,9 @@
 }
 
 /* NAVIGATION BAR */
+nav {
+    background-color: #00B2FF !important;
+}
 
 nav ul li a {
     color:white;
