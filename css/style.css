@@ -1,5 +1,13 @@
 .container {
-    margin-top: 3em;
+    padding-top: 3em;
+}
+
+html,body {
+    height: 100%;
+}
+
+.container{
+    height:100%;
 }
 
 /* NAVIGATION BAR */
@@ -17,6 +25,10 @@ nav ul li a:hover {
 
 /* About Section */
 
+#splash-bg {
+    background-color: #00B2FF;
+    height:100%;
+}
 
 .about-paragraph {
     margin-top: 1em;
