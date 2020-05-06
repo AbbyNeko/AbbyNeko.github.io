@@ -31,12 +31,26 @@ nav {
     font-family: 'Jost', sans-serif;
 }
 
+nav li {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 nav ul li a {
     color:white;
+    font-size: 1.3em;
 }
 
 nav ul li a:hover {
     color:white;
+}
+
+nav li a:hover::before {
+    content: "< ";
+}
+
+nav li a:hover::after {
+    content: " >";
 }
 
 /* About Section */
