@@ -45,14 +45,6 @@ nav ul li a:hover {
     color:white;
 }
 
-nav li a:hover::before {
-    content: "< ";
-}
-
-nav li a:hover::after {
-    content: " >";
-}
-
 /* About Section */
 
 #splash-bg {
