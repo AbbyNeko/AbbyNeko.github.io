@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 }
 
+.carousel-inner  {
+    max-height: 30em;
+}
+
 /* NAVIGATION BAR */
 nav {
     background-color: #00B2FF !important;
@@ -101,4 +105,10 @@ a.card-link, a.card-link:hover {
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+/* PROJECT PAGE */
+
+#project-description {
+    padding: 1em;
 }
