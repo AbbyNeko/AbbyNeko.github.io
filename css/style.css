@@ -57,6 +57,29 @@ nav ul li a:hover {
     font-weight: 500;
 }
 
+.navbar-nav {
+    margin-left: auto;
+}
+
+
+/* SPLASH PAGE */
+
+.motto-drop h4{
+    padding-top:1em;
+    color:white;
+    font-size: 2em !important;
+}
+
+.fa-chevron-down {
+    padding: 1em;
+    width:10px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left: -5px;
+    color:white;
+}
+
 /* About Section */
 
 #splash-bg {
