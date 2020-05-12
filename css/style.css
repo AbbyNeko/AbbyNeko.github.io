@@ -132,6 +132,17 @@ a.card-link, a.card-link:hover {
 
 /* PROJECT PAGE */
 
-#project-description {
+.project-description {
+    margin-top: 0.6em;
+}
+
+.tab-pane {
     padding: 1em;
+    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.project-link {
+    display: block;
+    margin-bottom: 2em;
 }
