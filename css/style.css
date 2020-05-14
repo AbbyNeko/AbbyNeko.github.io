@@ -91,7 +91,7 @@ nav ul li a:hover {
     margin-top: 1em;
 }
 
-.about-me img {
+.about-me .card-img {
     padding-top: 2em;
     padding-left: 2em;
     padding-bottom: 2em;
@@ -108,6 +108,13 @@ nav ul li a:hover {
     color:black;
 }
 
+.download-resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+}
+
 /* Portfolio */
 
 .portfolio-header {
@@ -116,6 +123,11 @@ nav ul li a:hover {
 
 a.card-link, a.card-link:hover {
     color:white;
+}
+
+.card-text {
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Contact */
