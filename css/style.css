@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
 
 /* NAVIGATION BAR */
 nav {
-    background-color: #00B2FF !important;
+    background-color: #36D0FF !important;
     font-family: 'Jost', sans-serif;
 }
 
@@ -64,6 +64,11 @@ nav ul li a:hover {
 
 /* SPLASH PAGE */
 
+#floating-mountain-graphic img {
+    display: block;
+    max-height: 600px;
+}
+
 .motto-drop h4{
     padding-top:1em;
     color:white;
@@ -80,12 +85,13 @@ nav ul li a:hover {
     color:white;
 }
 
-/* About Section */
-
 #splash-bg {
-    background-color: #00B2FF;
+    background-color: #36D0FF;
     height:100%;
 }
+
+
+/* About Section */
 
 .about-paragraph {
     margin-top: 1em;
