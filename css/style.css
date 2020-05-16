@@ -133,6 +133,10 @@ nav ul li a:hover {
     width:75%;
 }
 
+#about-me-link {
+    scroll-behavior: smooth;
+}
+
 /* Portfolio */
 
 .portfolio-header {
@@ -178,9 +182,16 @@ a.card-link, a.card-link:hover {
     margin-bottom: 4em;
 }
 
+#tech-used-tab, #description-tab {
+    color:black !important;
+}
+
 .project-link {
     display: block;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 2em;
+    margin-top: 0.3em;
 }
 
 .carousel-inner  {
@@ -191,3 +202,11 @@ a.card-link, a.card-link:hover {
     margin-bottom: 2em;
 }
 
+.github-link {
+    display: block;
+    margin-top: 0.5em;
+}
+
+.github-link a {
+    font-weight: bold;
+}
