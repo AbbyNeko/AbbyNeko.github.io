@@ -69,6 +69,7 @@ nav ul li a:hover {
     display: block;
     max-height: 600px;
     position: absolute;
+    padding:0.5em;
 }
 
 @keyframes floating {
@@ -98,7 +99,7 @@ nav ul li a:hover {
 
 #splash-bg {
     background-color: #36D0FF;
-    height:100%;
+    height:93%;
 }
 
 
@@ -119,6 +120,10 @@ nav ul li a:hover {
     margin-top: 0.5em;
     display: inline-block;
     margin-right: 0.8em;
+}
+
+#location {
+    margin-top:1.8em;
 }
 
 .fab {
@@ -157,6 +162,11 @@ a.card-link, a.card-link:hover {
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+.find-me {
+    position: relative;
+    top: -5px;
 }
 
 /* PROJECT PAGE */
