@@ -25,10 +25,6 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 }
 
-.carousel-inner  {
-    max-height: 30em;
-}
-
 /* NAVIGATION BAR */
 nav {
     background-color: #36D0FF !important;
@@ -179,9 +175,19 @@ a.card-link, a.card-link:hover {
     padding: 1em;
     font-weight: normal;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 4em;
 }
 
 .project-link {
     display: block;
     margin-bottom: 2em;
 }
+
+.carousel-inner  {
+    max-height: 40em;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2em;
+}
+
