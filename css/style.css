@@ -84,7 +84,8 @@ nav ul li a:hover {
 }
 
 .fa-chevron-down {
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     width:10px;
     position: absolute;
     bottom:0;
@@ -119,7 +120,11 @@ nav ul li a:hover {
 }
 
 #location {
-    margin-top:1.8em;
+    margin-bottom:1.8em;
+}
+
+#job-title {
+    margin-top: 2em;
 }
 
 .fab {
