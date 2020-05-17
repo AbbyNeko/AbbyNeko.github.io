@@ -58,6 +58,9 @@ nav ul li a:hover {
     margin-left: auto;
 }
 
+.bg-dark {
+    background: #25BBE8 !important;
+}
 
 /* SPLASH PAGE */
 
@@ -97,6 +100,7 @@ nav ul li a:hover {
 #splash-bg {
     background-color: #36D0FF;
     height:93%;
+    max-height: 900px;
 }
 
 
@@ -111,6 +115,10 @@ nav ul li a:hover {
     padding-left: 2em;
     padding-bottom: 2em;
     padding-right:2em;
+}
+
+#about-me-section {
+    max-height: 800px !important;
 }
 
 .social-media-icon {
@@ -136,6 +144,7 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     width:75%;
+    font-size: 85%;
 }
 
 #about-me-link {
@@ -152,9 +161,22 @@ a.card-link, a.card-link:hover {
     color:white;
 }
 
+.card-title {
+    font-size: 1.5em;
+}
+
+.card, .card-img-overlay {
+    min-width: 200px;
+    max-width: 25%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
 .card-text {
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
 }
 
 /* Contact */
