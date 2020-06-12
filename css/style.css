@@ -97,9 +97,21 @@ nav ul li a:hover {
     color:white;
 }
 
+@media only screen and (max-width:800px) {
+
+#splash-bg {
+    min-height: 95% !important;
+}
+
+#floating-mountain-graphic img {
+    margin-top: 2em;
+}
+
+}
+
 #splash-bg {
     background-color: #36D0FF;
-    height:93%;
+    min-height: 750px;
     max-height: 900px;
 }
 
