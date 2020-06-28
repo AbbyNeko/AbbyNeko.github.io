@@ -178,12 +178,13 @@ a.card-link, a.card-link:hover {
 }
 
 .card, .card-img-overlay {
-    min-width: 200px;
-    max-width: 25%;
+    min-width: 250px;
+    max-width: 20%;
     margin-top: 20px;
     margin-right: auto;
     margin-left:auto;
 }
+
 
 .card-text {
     font-weight: bold;
