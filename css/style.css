@@ -67,7 +67,8 @@ nav ul li a:hover {
 #floating-mountain-graphic img {
     display: block;
     max-height: 600px;
-    position: absolute;
+    margin-right:auto;
+    margin-left:auto;
     padding:0.5em;
 }
 
@@ -99,13 +100,13 @@ nav ul li a:hover {
 
 @media only screen and (max-width:800px) {
 
-#splash-bg {
-    min-height: 95% !important;
-}
+    #splash-bg {
+        min-height: 500px !important;
+    }
 
-#floating-mountain-graphic img {
-    margin-top: 2em;
-}
+    #floating-mountain-graphic img {
+        margin-top: 2em;
+    }
 
 }
 
@@ -113,6 +114,7 @@ nav ul li a:hover {
     background-color: #36D0FF;
     min-height: 750px;
     max-height: 900px;
+    padding-bottom:10em;
 }
 
 
