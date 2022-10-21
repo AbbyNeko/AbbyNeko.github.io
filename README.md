@@ -15,11 +15,11 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
    * A responsive layout
 
-   * Responsive images
+   * Responsive img
 
 * The Bootstrap portfolio should minimize the use of media queries.
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+* Screenshots are provided as a reference in the `Assets/img` folder. Your app does not need to be _exactly_ like the img. Use Bootstrap to create a similar, responsive layout.
 
 ### Hints
 
@@ -45,7 +45,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * Each page must have valid and correct HTML. (use a validation service)
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+* Must contain your personalized information. (bio, name, img, links to social media, etc.)
 
 * Must properly utilize Bootstrap components and grid system.
 
