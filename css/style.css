@@ -12,7 +12,7 @@ html,body {
 }
 
 .my-name {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Jost', sans-serif;
     font-size: 2em;
 } 
 
@@ -105,15 +105,14 @@ nav ul li a:hover {
     }
 
     #floating-mountain-graphic img {
-        margin-top: 2em;
+        padding-top: 2em;
     }
 
 }
 
 #splash-bg {
     background-color: #36D0FF;
-    min-height: 750px;
-    max-height: 900px;
+    min-height: 53em;
     padding-bottom:10em;
 }
 
@@ -121,18 +120,48 @@ nav ul li a:hover {
 /* About Section */
 
 .about-paragraph {
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
-.about-me .card-img {
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-bottom: 2em;
-    padding-right:2em;
+.about-paragraph p {
+    font-size: 1.2em;
+    width:40em;
+    display:block;
+    font-weight: bold;
 }
 
-#about-me-section {
-    max-height: 800px !important;
+.about-me  {
+    padding-top: 10%;
+    margin:auto;
+    width: 65%;
+    color:rgb(22, 19, 19);
+}
+
+.about-me h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+#me-card-img {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right:1em;
+    display: block;
+    margin:auto;
+    margin-bottom: 1em;  
+    margin-top: 1em; 
+    height: 20em;
+    width:20em;
+}
+
+div#about-me-section {
+    min-height: 100vh;
+    background-image: url("../img/milad-fakurian-5lhMVEAx4s8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .social-media-icon {
@@ -150,7 +179,7 @@ nav ul li a:hover {
 }
 
 .fab {
-    color:black;
+    color:rgb(22, 19, 19);
 }
 
 .download-resume {
@@ -177,14 +206,6 @@ a.card-link, a.card-link:hover {
 
 .card-title {
     font-size: 1.5em;
-}
-
-.card, .card-img-overlay {
-    min-width: 250px;
-    max-width: 20%;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left:auto;
 }
 
 
@@ -225,7 +246,7 @@ a.card-link, a.card-link:hover {
 }
 
 #tech-used-tab, #description-tab {
-    color:black !important;
+    color:rgb(22, 19, 19);;
 }
 
 .project-link {
