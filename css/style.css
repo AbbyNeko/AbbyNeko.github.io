@@ -219,12 +219,23 @@ a.card-link, a.card-link:hover {
 
 .contact-form h1 {
     margin-bottom: 1em;
+    font-size: 3em;
 }
 
 .contact-form {
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+.contact-form p {
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .find-me {
