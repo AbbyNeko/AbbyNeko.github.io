@@ -120,25 +120,26 @@ nav ul li a:hover {
 /* About Section */
 
 .about-paragraph {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .about-paragraph p {
     font-size: 1.2em;
-    width:40em;
     display:block;
     font-weight: bold;
+    padding: 1em;
+    padding-left:2em;
 }
 
 .about-me  {
-    padding-top: 10%;
+    padding-top: 6%;
     margin:auto;
     width: 65%;
     color:rgb(22, 19, 19);
 }
 
 .about-me h2 {
-    font-size: 3em;
+    font-size: 2.3em;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
@@ -152,8 +153,6 @@ nav ul li a:hover {
     margin:auto;
     margin-bottom: 1em;  
     margin-top: 1em; 
-    height: 20em;
-    width:20em;
 }
 
 div#about-me-section {
@@ -170,12 +169,13 @@ div#about-me-section {
     margin-right: 0.8em;
 }
 
-#location {
-    margin-bottom:1.8em;
-}
-
 #job-title {
     margin-top: 2em;
+    padding-bottom: 0;
+}
+
+#location {
+    padding-top: 0;
 }
 
 .fab {
@@ -184,10 +184,11 @@ div#about-me-section {
 
 .download-resume {
     display: block;
+    font-weight:bolder;
     margin-left: auto;
     margin-right: auto;
     width:75%;
-    font-size: 85%;
+    font-size: 87%;
 }
 
 #about-me-link {
