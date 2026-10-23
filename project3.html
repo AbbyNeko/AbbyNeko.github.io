@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 
     <link rel="icon" type="image/x-icon" href="img/favicons/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Jost:200,500,600|Parisienne|Quicksand:400,600&display=swap" rel="stylesheet">
-    <title>Readable</title>
+    <link href="https://fonts.googleapis.com/css?family=Jost:200,500,600|Parisienne|Quicksand:400,600,700&display=swap" rel="stylesheet">
+    <title>Google Books Search</title>
   </head>
-<body>
+<body class="project-page">
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="#main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse" id="main-nav">
         <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About<span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -47,80 +47,82 @@
       <div class="row">
 
         <div class="col-lg-12 project-section">
-          <h3>Readable</h3>
+          <h3>Readable (v2)</h3>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="github-link"><strong>GitHub Repo:</strong> <a href="https://github.com/apeabody007/Readable" target="_blank">Link</a></p>
-            <a class="project-link" href="https://apeabody007.github.io/Readable/" target="_blank">Try it out</a>
+          <div class="row">
+            <div class="col-lg-12">
+              <p class="github-link"><strong>GitHub Repo:</strong> <a href="https://github.com/AbbyNeko/readable-2" target="_blank">Link</a></p>
+              <a class="project-link" href="https://friendly-axolotl-cf6cb9.netlify.app/" target="_blank">Try it out</a>            
+            </div>
           </div>
-        </div>
-
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
+          
+          <div class="row project-layout">
+            <div class="col-lg-8 project-carousel-column">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="./img/Readable1.png" alt="First slide">
+                  <img class="d-block w-100" src="img\readablev2-1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./img/Readable2.png" alt="Second slide">
+                  <img class="d-block w-100" src="img\readablev2-2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="./img/Readable3.png" alt="Third slide">
+                  <img class="d-block w-100" src="img\readablev2-3.png" alt="Third slide">
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+                <span class="visually-hidden">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+                <span class="visually-hidden">Next</span>
               </a>
             </div>
 
+            </div>
+            <div class="col-lg-4 project-details-column">
             <!-- Project Description section -->
             <ul class="nav nav-tabs project-description" id="myTab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
+                <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Description</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="tech-used-tab" data-toggle="tab" href="#tech-used" role="tab" aria-controls="tech-used" aria-selected="false">Technologies Used</a>
+                <a class="nav-link" id="tech-used-tab" data-bs-toggle="tab" href="#tech-used" role="tab" aria-controls="tech-used" aria-selected="false">Technologies Used</a>
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
               <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                <p>Readable is a web app created to allow users to keep track of their reading, read and want to read lists. Integrated with the Google Books API, this web app allows the user to search for books by title and add it to their list. Readable was created as a result of the collaborative effort of my developer team. We all worked hard to make this application a reality. Our names are listed out at the bottom of the Readable website.</p>
+                <p>Google Books Search is a React app utilizing Node.js, Express and MongoDB. You can search for books and add it to a Saved Books list.</p>
               </div>
               <div class="tab-pane fade" id="tech-used" role="tabpanel" aria-labelledby="tech-used-tab">
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>React</li>
                   <li>Bootstrap</li>
-                  <li>Foundation</li>
-                  <li>jQuery</li>
-                  <li>Dicebear Avatars API</li>
-                  <li>Google Books API</li>
+                  <li>Built with Vite</li>
+                  <li>Deployed on Netlify</li>
                 </ul>
               </div>
             </div>
+            </div>
+          </div>
 
       </div>
 
       </div>
-
           
     </div>
 
     <!-- Bootstrap Javascript -->        
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/3b66b0ed5f.js" crossorigin="anonymous"></script>
 
